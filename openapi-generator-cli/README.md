@@ -22,8 +22,8 @@ In global mode (ie, with -g or --global appended to the command), it installs th
 means that you'll get the `openapi-generator` command available on your command line interface (CLI) as well.
 
 ```sh
-# install the latest version of "@aqovia/openapi-generator-cli"
-npm install @aqovia/openapi-generator-cli -g
+# install the latest version of "aqovia-openapi-generator-cli"
+npm install aqovia-openapi-generator-cli -g
 ```
 
 After the installation has finished you can type for example:
@@ -39,7 +39,7 @@ It is recommended to install the package as development dependency, because norm
 during the development process. To do that you can type the following:
 
 ```sh
-# install the latest version of "@aqovia/openapi-generator-cli"
+# install the latest version of "aqovia-openapi-generator-cli"
 npm install @openapitools/openapi-generator-cli -D
 ```
 
@@ -50,7 +50,7 @@ After the installation has finished you can add a script like this:
   "name": "my-cool-package",
   "version": "0.0.0",
   "scripts": {
-    "my-awesome-script-name": "openapi-generator generate -i docs/openapi.yaml -g csharp-functions-server -o generated-sources/openapi --additional-properties packageName=MyCoolApi",
+    "my-awesome-script-name": "openapi-generator generate -i docs/openapi.yaml -g csharp-netcore-functions -o generated-sources/openapi --additional-properties packageName=MyCoolApi",
   }
 }
 ```

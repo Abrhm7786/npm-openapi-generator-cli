@@ -1,0 +1,67 @@
+{
+  "_from": "@aqovia/openapi-gen-cli",
+  "_inBundle": false,
+  "_integrity": "sha512-t3LA7WM5ycyIk/HWujYmwPVYl+t4v91QGs6A2DV9htwW5EqIbYXh566jGwZUBwsZRosUN3fFAbX3fX8txmUlzQ==",
+  "_location": "/@aqovia/openapi-gen-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@aqovia/openapi-gen-cli",
+    "name": "@aqovia/openapi-gen-cli",
+    "escapedName": "@aqovia/openapi-gen-cli",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jamie_test1/-/jamie_test1-1.1.0.tgz",
+  "_shasum": "e02eeeb4fb4293eb1a5e2d11baf661865647a96d",
+  "_spec": "@aqovia/openapi-gen-cli",
+  "_where": "c:\\@aqovia/openapi-gen-cli",
+  "author": "HarmoWatch / Kay Schecker",
+  "bin": {
+    "openapi-generator": "bin/openapi-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/openapitools/openapi-generator-cli/issues"
+  },
+  "deprecated": false,
+  "description": "A npm package wrapper for OpenAPI Generator (https://github.com/OpenAPITools/openapi-generator), generates which API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)",
+  "files": [
+    "bin/openapi-generator",
+    "bin/openapi-generator-cli.jar",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/openapitools/openapi-generator-cli#readme",
+  "keywords": [
+    "rest-api",
+    "rest-client",
+    "sdk",
+    "generator",
+    "restful-api",
+    "api",
+    "api-client",
+    "api-server",
+    "openapi3",
+    "openapi",
+    "oas",
+    "rest"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "@aqovia/openapi-gen-cli",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openapitools/openapi-generator-cli.git"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "version": "1.1.0"
+}

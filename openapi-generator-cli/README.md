@@ -1,4 +1,4 @@
-# @aqovia/openapi-generator-cli
+# aqovia-openapi-generator-cli
 
 <i>*** This is a fork of @openapitools/openapi-generator-cli (v4.3.0) - with the addition of a C# Azure Functions server generator ***</i>
 
